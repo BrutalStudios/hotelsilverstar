@@ -51,7 +51,7 @@ To replace any image, drop your own file into `assets/images/` using the **same 
 | **Email** `silverstar.reservations@gmail.com` | `index.html` | Confirm this is monitored. |
 | **Domain** `https://hotelsilverstar.in/` | `index.html` (canonical/OG), `robots.txt`, `sitemap.xml` | Live domain. Hosted on Vercel (project `hotelsilverstar`), auto-deploys from the `main` branch of this GitHub repo. DNS is on Cloudflare. |
 | **Reviews** | `index.html` -> `#reviews` + JSON-LD | These are **real Google reviews** (4.6 stars / 270+ reviews) captured from the venue's Google listing, with a "Read them all on Google" link and matching `AggregateRating`/`Review` structured data. They are a snapshot, so refresh them occasionally, or add a free live widget (Trustindex/Elfsight) to keep them auto-updating. |
-| **Facts** (8,000 sq ft, 50 rooms, terrace lawn, over-pool bridge, sound-proof DJ) | `#stats`, `#about`, `#spaces`, `#amenities`, JSON-LD | Taken from the venue's own Instagram bio. Adjust if any detail changes. |
+| **Facts** (8,000 sq ft, 50+ rooms, terrace lawn, over-pool bridge, sound-proof DJ) | `#stats`, `#about`, `#spaces`, `#amenities`, JSON-LD | Taken from the venue's own Instagram bio. Adjust if any detail changes. |
 | **Map pin** | `#contact` link + JSON-LD `hasMap` | Uses the venue's real Google Maps link (`maps.app.goo.gl/AU8w5ExR8ZX4ToH77`). The embedded map searches by name; for a pixel-perfect pin paste a Maps "embed" iframe and set `latitude`/`longitude` in the JSON-LD. |
 
 ## SEO included
