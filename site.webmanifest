@@ -1,0 +1,12 @@
+{
+  "name": "Silver Star Banquet Hall, Amravati",
+  "short_name": "Silver Star",
+  "description": "Luxury banquet hall & wedding venue on Rahatgaon Road, Amravati.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0b10",
+  "theme_color": "#0a0b10",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
